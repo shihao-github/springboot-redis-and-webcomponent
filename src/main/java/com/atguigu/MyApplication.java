@@ -10,6 +10,8 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 @ServletComponentScan
 public class MyApplication {
     public static void main(String[] args) {
+        System.out.println("1111");
+        System.out.println("i am master");
         SpringApplication.run(MyApplication.class, args);
     }
 }
